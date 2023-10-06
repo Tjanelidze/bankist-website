@@ -153,4 +153,23 @@ document.querySelector('.nav__links').addEventListener('click', function (e) {
 // document.querySelector('.nav').addEventListener('click', function (e) {
 //   this.style.backgroundColor = randomColor();
 //   console.log('NAV', e.target, e.currentTarget);
-// });
+// // });
+
+// const h1 = document.querySelector('h1');
+
+// // Going downwards: child
+
+// // console.log(h1.querySelectorAll('.highlight'));
+// // console.log(h1.childNodes);
+// // console.log(h1.children);
+// // console.log((h1.firstElementChild.style.color = 'white'));
+// // console.log(h1.firstChild, h1.firstElementChild);
+
+// //Going Upwards: parents
+// console.log(h1.parentElement);
+
+// console.log(h1.closest('.header'));
+
+// //Going sidways
+// console.log(h1.previousElementSibling);
+// console.log(h1.nextElementSibling);
